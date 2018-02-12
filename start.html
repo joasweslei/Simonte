@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<!-- scripts -->		
+		<!--Load the AJAX API-->
+		  <link rel="stylesheet" href="jquery-ui.css">
+		<script src="jquery.min.js"></script>						<!-- acesso jquery.min.js --> 
+        <script src="jquery-ui.js"></script>
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+		<script src="simulador.js"></script>						<!-- Simulador -->
+			
+		
+		
+		 <link rel=stylesheet href="estilo.css" type="text/css"/>
+		
+		<title>Project Lab</title>													<!-- title of page -->	
+
+	</head>
+	<body>
+		<div id='data'>
+			<label for="otimista">Otimista</label>
+			<input type='text' id='otimista' value='2' class='elem'/> <br>
+			<label for="maisProvavel">Mais Provável</label>
+			<input type='text' id='maisProvavel' value = '4' class='elem'/> <br>
+			<label for="pessimista">Pessimista</label>
+			<input type='text' id='pessimista' value = '6' class='elem'/> <br>
+			<label for="max_numbers">Simulações</label>
+			<input type='text' id='max_numbers' value = '1000' class='elem'/> <br>
+		    <label for="dist">Distribuição</label>
+			<select id='dist'>
+				<option value="tri">Triangular</option>
+				<option value="pert">PERT-BETA</option>
+			</select>
+			<input type='submit' id='processar' value='Executar' onclick='recalc()'/> <br>
+			
+		</div> <br>
+
+		<div id='grafico'></div>
+	</body>
+</html>

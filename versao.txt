@@ -1,0 +1,35 @@
+
+
+
+01.00
+   Campos de entrada agora possuem descrição, porém a tabulação não foi 
+        corrigida ainda
+   O campo distribuição agora é uma lista de opções
+   Botão de start com descrição alterada de 'enviar' para 'executar'
+   Ambas as distribuições (pert e tri) podem er acessadas com sucesso
+   Porem o grafico da distribuição pert é bem mais denso, devido ao algoritmo
+   usado
+
+00.03.01
+
+00.03
+    Implementação da distribuição pert-beta
+    Inserido campo de texto para a distribuição, que pode ser preencido com
+        'pert' ou 'tri'
+    Como é uma versão instável, a distribuição triangular, apesar de
+        implementada, não pode ser acessada
+    Uso da função Beta e da função Gamma
+    Corrigido erro que carregavaa mais números que o necessário
+
+00.02
+    Primeira versão estável da distribuição triangular
+    Múltiplas chamadas ao servidor australiano
+    É possível determinar o número de simulações durante a execução
+    Melhoria da precisão dos dados devido ao aumento do intervalo de valores
+        de 256 para 65536
+
+
+00.01
+    Início da implementação da distribuição triangular
+    Conexão com o servidor de números aleatórios
+    Conexão com a API Google Visualization

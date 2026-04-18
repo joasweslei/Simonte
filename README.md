@@ -1,45 +1,57 @@
-📊 Project Lab — Simulador de Distribuições
+# 📊 Project Lab — Simulador de Distribuições
 
+![Status](https://img.shields.io/badge/status-active-success)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![jQuery](https://img.shields.io/badge/jQuery-3.x-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
+Simulador interativo de distribuições probabilísticas (**Triangular** e **PERT-Beta**) utilizando números aleatórios reais provenientes de uma API quântica.
 
+---
 
+## 🎥 Preview do Sistema
 
+Substitua pelo seu GIF depois:
 
+![Preview do Sistema](./assets/preview.gif)
 
+---
 
-Simulador interativo de distribuições probabilísticas (Triangular e PERT-Beta) utilizando números aleatórios reais provenientes de uma API quântica.
+## 🚀 Funcionalidades
 
-🎥 Preview do Sistema
+- Geração de números aleatórios reais (QRNG)
+- Simulação com distribuição:
+  - Triangular
+  - PERT-Beta
+- Visualização com histogramas
+- Barra de progresso
+- Medição de tempo
 
-💡 Substitua o link abaixo pelo GIF do seu projeto rodando
+---
 
-🚀 Demonstração
+## 🧠 Aplicações
 
-📌 Funcionalidades principais:
+- Gestão de projetos (PERT)
+- Análise de risco
+- Ensino de estatística
+- Simulação de Monte Carlo
 
-🔢 Geração de números aleatórios reais (QRNG)
-📊 Simulação de cenários com:
-Distribuição Triangular
-Distribuição PERT-Beta
-📉 Visualização com histogramas dinâmicos
-📶 Barra de progresso em tempo real
-⏱️ Medição de performance
-🧠 Aplicações
+---
 
-Este projeto pode ser utilizado em:
+## 🛠️ Tecnologias
 
-📊 Gestão de Projetos (estimativas PERT)
-📈 Análise de risco
-🎓 Ensino de Estatística
-🔬 Simulação de Monte Carlo
-🛠️ Tecnologias
-HTML5
-CSS3
-JavaScript (Vanilla)
-jQuery + jQuery UI
-Google Charts
-API QRNG (Australian National University)
-📂 Estrutura do Projeto
+- HTML5  
+- CSS3  
+- JavaScript  
+- jQuery  
+- jQuery UI  
+- Google Charts  
+
+---
+
+## 📂 Estrutura do Projeto
+
+```
 project-lab/
 │
 ├── index.html
@@ -51,55 +63,68 @@ project-lab/
 ├── assets/
 │   └── preview.gif
 └── README.md
-⚙️ Como Executar
+```
+
+---
+
+## ⚙️ Como Executar
+
+```bash
 git clone https://github.com/seu-usuario/project-lab.git
 cd project-lab
+```
 
-Abra o arquivo index.html no navegador.
+Abra o arquivo `index.html` no navegador.
 
-🧪 Como Usar
-Defina:
-Otimista (A)
-Mais provável (B)
-Pessimista (C)
-Escolha a distribuição:
-Triangular
-PERT-Beta
-Defina o número de simulações
-Clique em Executar
-📊 Saída do Sistema
-Histograma de frequência
-Frequência acumulada
-Distribuição probabilística
-📐 Modelos Utilizados
-🔺 Distribuição Triangular
+---
 
-Modelo simples baseado em três pontos:
+## 🧪 Como Usar
 
-Mínimo (A)
-Mais provável (B)
-Máximo (C)
-📈 Distribuição PERT-Beta
+1. Defina:
+   - Otimista (A)
+   - Mais provável (B)
+   - Pessimista (C)
 
-Modelo mais sofisticado:
+2. Escolha a distribuição:
+   - Triangular
+   - PERT-Beta
 
-Suaviza a curva
-Dá maior peso ao valor mais provável
-Muito utilizado em análise de projetos
-⚠️ Limitações
-Dependência de API externa (QRNG)
-Necessidade de conexão com internet
-Performance impactada com alto volume de simulações
-💡 Melhorias Futuras
-📥 Exportação de gráficos (PNG/PDF)
-📊 Comparação entre distribuições
-📱 Interface responsiva
-🧮 Inclusão de novas distribuições (Normal, Exponencial)
-⚡ Cache de números aleatórios
-🧑‍💻 Autor
+3. Defina o número de simulações
 
-Desenvolvido para fins educacionais e experimentais.
+4. Clique em **Executar**
 
-📄 Licença
+---
 
-Este projeto está sob a licença MIT.
+## 📊 Saída
+
+- Histograma de frequência  
+- Frequência acumulada  
+- Distribuição probabilística  
+
+---
+
+## ⚠️ Observações
+
+- Requer internet (API externa)
+- Pode ser lento com muitas simulações
+
+---
+
+## 💡 Melhorias Futuras
+
+- Exportar gráficos  
+- Comparar distribuições  
+- Versão mobile  
+- Outras distribuições  
+
+---
+
+## 🧑‍💻 Autor
+
+Projeto educacional.
+
+---
+
+## 📄 Licença
+
+MIT

@@ -9,14 +9,6 @@ Simulador interativo de distribuições probabilísticas (**Triangular** e **PER
 
 ---
 
-## 🎥 Preview do Sistema
-
-Substitua pelo seu GIF depois:
-
-![Preview do Sistema](./assets/preview.gif)
-
----
-
 ## 🚀 Funcionalidades
 
 - Geração de números aleatórios reais (QRNG)

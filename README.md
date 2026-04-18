@@ -1,103 +1,105 @@
-📊 Project Lab — Simulador de Distribuições (Triangular e PERT-Beta)
+📊 Project Lab — Simulador de Distribuições
 
-📌 Visão Geral
-Este projeto é um simulador estatístico interativo que utiliza números aleatórios reais para gerar e visualizar distribuições de probabilidade, com foco em:
-  📐 Distribuição Triangular
-  📈 Distribuição PERT-Beta
-A aplicação é executada diretamente no navegador e permite ao usuário definir parâmetros de estimativa (otimista, mais provável e pessimista), simulando cenários típicos de gestão de projetos e análise de risco.
 
-🚀 Funcionalidades
-🔢 Geração de números aleatórios via API quântica (ANU - Austrália)
-📊 Simulação de distribuições:
-  Triangular
-  PERT-Beta
-📉 Visualização com histogramas interativos
-  ⏱️ Medição de tempo de execução
-  📶 Barra de progresso em tempo real
-  ⚙️ Interface simples e intuitiva
 
-🧠 Conceitos Aplicados
 
-Este projeto envolve conceitos importantes de:
-Probabilidade e Estatística
-Simulação de Monte Carlo
-Distribuições contínuas
-Engenharia de Software (JS + UI)
-Visualização de dados
 
-🌐 Fonte dos Dados
-Os números aleatórios são obtidos da API:
-👉 https://qrng.anu.edu.au
 
-Baseada em fenômenos quânticos
-Gera números verdadeiramente aleatórios (não pseudoaleatórios)
 
-🖥️ Tecnologias Utilizadas
+
+Simulador interativo de distribuições probabilísticas (Triangular e PERT-Beta) utilizando números aleatórios reais provenientes de uma API quântica.
+
+🎥 Preview do Sistema
+
+💡 Substitua o link abaixo pelo GIF do seu projeto rodando
+
+🚀 Demonstração
+
+📌 Funcionalidades principais:
+
+🔢 Geração de números aleatórios reais (QRNG)
+📊 Simulação de cenários com:
+Distribuição Triangular
+Distribuição PERT-Beta
+📉 Visualização com histogramas dinâmicos
+📶 Barra de progresso em tempo real
+⏱️ Medição de performance
+🧠 Aplicações
+
+Este projeto pode ser utilizado em:
+
+📊 Gestão de Projetos (estimativas PERT)
+📈 Análise de risco
+🎓 Ensino de Estatística
+🔬 Simulação de Monte Carlo
+🛠️ Tecnologias
 HTML5
 CSS3
-JavaScript (Vanilla + jQuery)
-jQuery UI (barra de progresso)
-Google Charts (visualização)
-API externa (QRNG ANU)
-
+JavaScript (Vanilla)
+jQuery + jQuery UI
+Google Charts
+API QRNG (Australian National University)
 📂 Estrutura do Projeto
-📁 project-lab/
+project-lab/
 │
-├── index.html          # Interface principal
-├── simulador.js        # Lógica de simulação e cálculo
-├── estilo.css          # Estilos da aplicação
-├── jquery.min.js       # Biblioteca jQuery
-├── jquery-ui.js        # UI components
-├── jquery-ui.css       # Estilo UI
-└── README.md           # Documentação
-
+├── index.html
+├── simulador.js
+├── estilo.css
+├── jquery.min.js
+├── jquery-ui.js
+├── jquery-ui.css
+├── assets/
+│   └── preview.gif
+└── README.md
 ⚙️ Como Executar
-Clone o repositório:
 git clone https://github.com/seu-usuario/project-lab.git
-Abra o arquivo:
-index.html
-Execute diretamente no navegador (não precisa de servidor)
+cd project-lab
+
+Abra o arquivo index.html no navegador.
 
 🧪 Como Usar
-Defina os parâmetros:
+Defina:
 Otimista (A)
 Mais provável (B)
 Pessimista (C)
+Escolha a distribuição:
+Triangular
+PERT-Beta
+Defina o número de simulações
+Clique em Executar
+📊 Saída do Sistema
+Histograma de frequência
+Frequência acumulada
+Distribuição probabilística
+📐 Modelos Utilizados
+🔺 Distribuição Triangular
 
-Escolha:
- Distribuição Triangular ou PERT-Beta
- Defina o número de simulações
- Clique em Executar
+Modelo simples baseado em três pontos:
 
-📊 Saída
-O sistema irá gerar:
-  Histograma de frequência
-  Curva acumulada
-  Distribuição probabilística simulada
+Mínimo (A)
+Mais provável (B)
+Máximo (C)
+📈 Distribuição PERT-Beta
 
-📐 Diferença entre as Distribuições
-🔺 Triangular
-   Simples e intuitiva
-   Baseada apenas nos três pontos (A, B, C)
-📈 PERT-Beta
-  Mais suave e realista
-  Considera peso maior no valor mais provável
-  Muito usada em gestão de projetos (PERT)
+Modelo mais sofisticado:
 
-⚠️ Observações
-A API externa pode ter limitações de requisição
-O desempenho depende da quantidade de simulações
-Requer conexão com internet
+Suaviza a curva
+Dá maior peso ao valor mais provável
+Muito utilizado em análise de projetos
+⚠️ Limitações
+Dependência de API externa (QRNG)
+Necessidade de conexão com internet
+Performance impactada com alto volume de simulações
+💡 Melhorias Futuras
+📥 Exportação de gráficos (PNG/PDF)
+📊 Comparação entre distribuições
+📱 Interface responsiva
+🧮 Inclusão de novas distribuições (Normal, Exponencial)
+⚡ Cache de números aleatórios
+🧑‍💻 Autor
 
-💡 Possíveis Melhorias
-  🔄 Cache de números aleatórios
-  📊 Exportação dos gráficos (PNG/PDF)
-  📉 Comparação entre distribuições
-  🧮 Inclusão de outras distribuições (Normal, Exponencial)
-  📱 Versão responsiva
+Desenvolvido para fins educacionais e experimentais.
 
-👨‍💻 Autor
-Desenvolvido para fins educacionais e experimentais em:
-  Estatística aplicada
-  Simulação de cenários
-  Visualização de dados
+📄 Licença
+
+Este projeto está sob a licença MIT.
